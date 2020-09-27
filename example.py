@@ -7,7 +7,7 @@
 from sht11 import SHT11
 
 #pin sck and data used, change with yours
-sht = SHT11(sck=26, data=33)
+sht = SHT11(sck=22, data=21)
 
 #read temperature and humidity
 tempOut = sht.temperature()
